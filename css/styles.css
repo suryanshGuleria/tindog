@@ -1,0 +1,148 @@
+
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15% 8% 15% ;
+}
+h1{
+
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    padding: 1% 5%;
+    font-weight: 600;
+}
+.navbar-brand{
+  font-size: 2.0em;
+  font-weight:bolder;
+  font-family: 'Ubuntu', sans-serif;
+}
+ul li{
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+ul{
+  margin-right: 110px;
+}
+.main{
+  color:white;
+  font-weight: 900 !important;
+}
+nav{
+  margin-bottom: 5em;
+}
+.navbar{
+  padding:0;
+}
+.dln{
+  margin: 8px 5px 15px 5px;
+}
+.title-image{
+  width:60%;
+position: absolute;
+transform:rotate(20deg);
+}
+.icon{
+
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: white;
+}
+/* content */
+.content{
+  padding:5%;
+}
+p{
+ font-weight:400!important;
+color:#8f8f8f;
+
+}
+/* testimonials */
+h3{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size:2rem;
+  font-weight: 600;
+  line-height: 1.5;
+
+}
+#testimonials{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 3%;
+  color:#fff;
+}
+.testimonialImage{
+  border-radius: 100%;
+  width:20%;
+  margin: 20px;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.media_img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding:0% 15%;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 5%;
+}
+/* media query */
+@media (max-width:1020px){
+.title-image{
+  position: static;
+  transform: rotate(0);
+  width:70%;
+}
+#title{
+  text-align: center;
+}
+}
+/* cta */
+#cta{
+  padding: 10% 5%;
+  color: #fff;
+  background-color: #ff4c68;
+  text-align: center;
+}
+#cta h3{
+  font-weight: 800;
+}
+/* footer */
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer i{
+  padding: 5% 2%;
+  font-size: 25px;
+}
+#footer i:hover{
+  font-size: 35px;
+
+}
